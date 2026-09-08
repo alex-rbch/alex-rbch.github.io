@@ -1,0 +1,23 @@
+:root {
+  /* Edit these base colors to change the entire palette. */
+  --paper: #f2eee4;
+  --button-bg: #f7f2e9;
+  --paper-soft: var(--paper-shade);
+  --thinking-bg: #dfe2d9;
+  --thinking-border: #7b887c;
+  --paper-shade: var(--thinking-bg);
+  --ink: #27322d;
+  --ink-soft: #667069;
+  --ink-neutral: #4b4b4b;
+  --link: #5c665d;
+  --accent: #607a68;
+  --highlight: #d8c98b;
+  --favicon-oat: #ded6bf;
+
+  /* Derived shades follow the palette automatically. */
+  --ink-readable: color-mix(in srgb, var(--ink-soft) 84%, var(--ink));
+  --highlight-soft: color-mix(in srgb, var(--highlight) 32%, transparent);
+  --highlight-wash: var(--paper-shade);
+  --rule: color-mix(in srgb, var(--ink) 16%, transparent);
+  --rule-strong: color-mix(in srgb, var(--ink) 20%, transparent);
+}
