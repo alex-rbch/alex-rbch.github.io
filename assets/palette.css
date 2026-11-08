@@ -2,8 +2,11 @@
   /* Edit these base colors to change the entire palette. */
   --paper: #f4efe8;
   --button-bg: #f7f2e9;
+  --cv-bg: #4f6957;
+  --cv-hover-bg: #405647;
+  --cv-text: var(--button-bg);
   --paper-soft: var(--paper-shade);
-  --thinking-bg: #dfe2d9;
+  --thinking-bg: #e8e9e1;
   --thinking-border: #7b887c;
   --paper-shade: var(--thinking-bg);
   --ink: #27322d;
@@ -18,6 +21,6 @@
   --ink-readable: color-mix(in srgb, var(--ink-soft) 84%, var(--ink));
   --highlight-soft: color-mix(in srgb, var(--highlight) 32%, transparent);
   --highlight-wash: var(--paper-shade);
-  --rule: color-mix(in srgb, var(--ink) 16%, transparent);
+  --rule: color-mix(in srgb, var(--ink) 13%, transparent);
   --rule-strong: color-mix(in srgb, var(--ink) 20%, transparent);
 }
