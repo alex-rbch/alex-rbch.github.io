@@ -414,7 +414,7 @@ h2 {
 }
 
 .publication {
-  padding-block: 12px;
+  padding-block: 10px;
   border-bottom: 1px solid var(--rule);
 }
 
@@ -441,7 +441,12 @@ h3 {
 .venue {
   font-size: 15px;
   line-height: 1.5;
-  color: var(--ink-readable);
+  color: var(--ink);
+}
+
+.authors sup {
+  font-size: 0.7em;
+  line-height: 0;
 }
 
 .author-self {
@@ -450,16 +455,18 @@ h3 {
 }
 
 .publication-links {
-  gap: 4px 18px;
+  gap: 4px 28px;
   margin-top: 2px;
+  color: var(--ink);
 }
 
 .publication-links a {
   padding-block: 2px;
-  color: var(--ink-readable);
+  color: inherit;
   background-color: transparent;
   text-decoration-line: none;
   text-decoration-color: currentColor;
+  white-space: nowrap;
 }
 
 .footer {
