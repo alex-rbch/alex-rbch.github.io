@@ -387,8 +387,9 @@ h2 {
   font-style: italic;
 }
 
-.recent-item a {
-  color: inherit;
+.recent-item a,
+.recent-item a:visited {
+  color: var(--ink);
   background-color: transparent;
   text-decoration-line: underline;
   text-decoration-color: var(--rule-strong);
@@ -398,10 +399,6 @@ h2 {
 .recent-item a:hover,
 .recent-item a:focus-visible {
   text-decoration-color: currentColor;
-}
-
-.recent-item cite a {
-  text-decoration: none;
 }
 
 .entry-type {
